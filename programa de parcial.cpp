@@ -121,6 +121,27 @@ int main()
 			break;
 
 
+					case 5:
+	
+    		cout<<"Contraseña del sistema bancario"<<endl;
+    		
+          
+       do{
+     	cout<<""<<endl;
+    	cout<<"Ingrese la contraseña : "<<endl;
+	    cout<<""<<endl;
+     	cin>>contra;
+     	if (contra==123456){
+		cout<<"Bancario virtual habierta "<<endl;
+    	}else{
+		cout<<"Usted no sabe su contraseña bancaria"<< cont+1 <<endl;
+		cont = cont+1;
+     	}
+       }while (!(cont==3 || cont<1));
+    			
+			break;
+
+
 
 		}
 	
