@@ -76,6 +76,50 @@ int main()
 	cout << "El promedio de numeros impares es: " << suma_impares/impares << endl;
     			
 			break;
+			
+			case 4:
+	
+    		cout<<"Funcion de la semana (saber si es laboral)"<<endl<<endl;
+    		
+    			cout << "Ingresa un dia de la semana: "<<endl<< endl;
+	cout<<"1. Lunes"<<endl;
+	cout<<"2. Martes"<<endl;
+	cout<<"3. Miercoles"<<endl;
+	cout<<"4. Jueves"<<endl;
+	cout<<"5. Viernes"<<endl;
+	cout<<"6. Sabado"<<endl;
+	cout<<"7. Domingo"<<endl;
+	cin >> dia;
+	
+	switch (dia) {
+	case 1: 
+		cout << "Es un dia laboral" << endl;
+		break;
+	case 2: 
+		cout << "Es un dia laboral" << endl;
+		break;
+	case 3:
+		cout << "Es un dia laboral" << endl;
+		break;
+	case 4:
+		cout << "Es un dia laboral" << endl;
+		break;
+	case 5:
+		cout << "Es un dia laboral" << endl;
+		break;
+	case 6:
+		cout << "No es un dia laboral" << endl;
+		break;
+	case 7: 
+		cout << "No es un dia laboral" << endl;
+		break;
+	default:
+		cout << "Ingrese correctamente el dia" << endl;
+	}
+    
+    			
+			break;
+
 
 
 		}
