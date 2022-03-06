@@ -55,6 +55,28 @@ int main()
 
     			
 			break;
+			
+			case 3:
+	
+          cout<<"Calcular cuantos numero son pares: "<<endl<<endl;
+          
+          	for (x=1;x<=10;x++) {
+		cout << "Ingresa numero" << endl;
+		cin >> ene;
+		if (ene%2==0) {
+			suma_pares = suma_pares+ene;
+			pares = pares+1;
+		} else {
+			suma_impares = suma_impares+ene;
+			impares = impares+1;
+		}
+	}
+	cout << "La suma de los numeros pares es: " << suma_pares << endl;
+	cout << "Numeros pares: " << pares << endl;
+	cout << "El promedio de numeros impares es: " << suma_impares/impares << endl;
+    			
+			break;
+
 
 		}
 	
